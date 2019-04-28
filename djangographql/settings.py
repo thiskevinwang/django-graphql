@@ -15,7 +15,7 @@ import os
 # for environment variables
 from dotenv import load_dotenv
 from pathlib import Path  # python3 only
-env_path = Path('..') / '.env' # FIXME
+env_path = Path('.') / '.env' # FIXME
 load_dotenv(dotenv_path=env_path)
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
